@@ -26,7 +26,8 @@ public class GameManager : MonoBehaviour
 
     public bool victory { get; set; }
     private static GameManager _instance;
-
+    private Item cookie; //struct
+    private Item2 cookie2; //class
     public static GameManager Instance
     {
         get
@@ -51,7 +52,13 @@ public class GameManager : MonoBehaviour
     {
         timer = 120f;
         isAlive = true;
+
+        cookie2 = new Item2(0, "roze koek");
+        cookie.itemName = "stroopwafel";
+        cookie.ID = 2;
+
     }
+    
 
     // Update is called once per frame
     void Update()

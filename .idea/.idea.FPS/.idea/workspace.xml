@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="78c550ac-65d2-4347-b480-e9bcf1bbdaf2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,8 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnVehicle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManagement/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Swim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycasting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,15 +42,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Raycasting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseCharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/TimeShow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Drive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnVehicle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Swim.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManagement/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimeShow.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1iDdMPetESZcRDiHKsqja30DbF7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,6 +98,8 @@
       <workItem from="1601486548525" duration="2160000" />
       <workItem from="1601634213259" duration="29000" />
       <workItem from="1601634307883" duration="940000" />
+      <workItem from="1601974275106" duration="6015000" />
+      <workItem from="1601991747526" duration="968000" />
     </task>
     <servers />
   </component>
@@ -79,13 +108,26 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1601634822498">
-      <screen x="-1920" y="0" width="1920" height="1160" />
+    <state x="-1297" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1601979825491">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1297" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601979825491" />
     <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1601634822498" />
   </component>
 </project>
