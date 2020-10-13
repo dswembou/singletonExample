@@ -1,21 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Raycasting : MonoBehaviour
 {
-    public float maxRayDistance = 25f;
-    void FixedUpdate()
+    
+    void Update()
     {
-        Ray ray = new Ray(transform.position, Vector3.left);
-        RaycastHit[] hits = Physics.RaycastAll(ray, maxRayDistance);
-
-        Debug.DrawLine(transform.position, transform.position + Vector3.left * maxRayDistance, Color.red);
-
-        foreach (RaycastHit hit in hits)
+        if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log(hit.transform.name);
+            print("schiet");
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitInfo;
+
+            if (Physics.Raycast(ray, out hitInfo))
+            {
+                hitInfo.collider.GetComponent<Damageable>().TakeDamage(1);
+            }
         }
-        
+
     }
 }

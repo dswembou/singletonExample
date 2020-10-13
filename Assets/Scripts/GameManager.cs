@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public int score { get; set; }
     private float timer;
     private bool isAlive;
-
+    private Item cookie; //struct
+    private Item2 cookie2; //class
     public bool playerAlive
     {
         get
@@ -26,8 +28,7 @@ public class GameManager : MonoBehaviour
 
     public bool victory { get; set; }
     private static GameManager _instance;
-    private Item cookie; //struct
-    private Item2 cookie2; //class
+
     public static GameManager Instance
     {
         get

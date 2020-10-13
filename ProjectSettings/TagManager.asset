@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Collectable
+  - barrel
+  - car
   layers:
   - Default
   - TransparentFX

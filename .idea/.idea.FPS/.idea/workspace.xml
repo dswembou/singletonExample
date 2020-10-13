@@ -30,26 +30,36 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnVehicle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameManagement/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Swim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycasting.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Raycasting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseCharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Drive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnVehicle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Swim.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManagement/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Drive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/TimeShow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Raycasting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Barrel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Damageable.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +110,9 @@
       <workItem from="1601634307883" duration="940000" />
       <workItem from="1601974275106" duration="6015000" />
       <workItem from="1601991747526" duration="968000" />
+      <workItem from="1602053118274" duration="4809000" />
+      <workItem from="1602077202972" duration="205000" />
+      <workItem from="1602580306960" duration="3227000" />
     </task>
     <servers />
   </component>
@@ -124,10 +137,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1297" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1601979825491">
+    <state x="-1297" y="229" width="672" height="608" key="search.everywhere.popup" timestamp="1602581327767">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601979825491" />
+    <state x="-1297" y="229" width="672" height="608" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602581327767" />
     <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1601634822498" />
   </component>
 </project>

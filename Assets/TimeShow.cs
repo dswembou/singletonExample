@@ -7,17 +7,17 @@ using UnityEngine.UI;
 public class TimeShow : MonoBehaviour
 {
     private Text timeText;
+    private Image sprite;
 
     // Start is called before the first frame update
     void Start()
     {
-        timeText = GetComponent<Text>();
+        timeText = GetComponent<Text>();          
     }
 
     // Update is called once per frame
     void Update()
     {
         timeText.text = "Time left: " + GameManager.Instance.timeLeft.ToString();
-        
     }
 }

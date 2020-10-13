@@ -180,10 +180,16 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Barrel.cs" t="Include" />
+          <e p="Car.cs" t="Include" />
+          <e p="Damageable.cs" t="Include" />
           <e p="Drive.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="IDamageable.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Raycasting.cs" t="Include" />
+          <e p="SpawnDamageable.cs" t="Include" />
           <e p="SpawnManager.cs" t="Include" />
           <e p="SpawnVehicle.cs" t="Include" />
           <e p="Swim.cs" t="Include" />
